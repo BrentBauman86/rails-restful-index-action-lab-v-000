@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   get '/students', to:
-  'student#students'
+  'student#to_s'
 end
