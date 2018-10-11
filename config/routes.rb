@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-root 'student#index'
+# root 'student#index'
 
-  # get '/students', to:
-  # 'student#index'
+  get '/students', to:
+  'student#index'
 end
