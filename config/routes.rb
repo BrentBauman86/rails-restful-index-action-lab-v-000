@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-root 'controller#action'
+root 'student#index'
 
   get '/students', to:
   'student#index'
